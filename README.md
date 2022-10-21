@@ -193,6 +193,7 @@ My ThinkPad X1 Yoga 3rd Gen configurations:
 | :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
 | [i7-8650U](https://ark.intel.com/content/www/us/en/ark/products/124968/intel-core-i7-8650u-processor-8m-cache-up-to-4-20-ghz.html) | 4          | 8            | 1.9 GHz        | 4.2 GHz             | 8 MB  | LPDDR3-2133  | Intel UHD 620 |
 | [i5-8250U](https://www.intel.com/content/www/us/en/products/sku/124967/intel-core-i58250u-processor-6m-cache-up-to-3-40-ghz/specifications.html) | 4          | 8           | 1.8 GHz        | 3.40 GHz             | 6 MB  | DDR4-2400,LPDDR3-2133  | Intel UHD 620 |
+
 **Peripherals:**
 
 ```

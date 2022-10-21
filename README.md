@@ -1,16 +1,17 @@
 # macOS on ThinkPad X1 Yoga 3rd Gen, Model 20LE
 
-[![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://www.apple.com/macos/catalina/)
-[![version](https://img.shields.io/badge/10.15.6-yellow)](https://support.apple.com/en-us/HT210642)
+[![macOS](https://img.shields.io/badge/macOS-Monterey-pink.svg)](https://www.apple.com/macos/catalina/)
+[![version](https://img.shields.io/badge/12.6-pink)](https://support.apple.com/en-us/HT210642)
 [![BIOS](https://img.shields.io/badge/BIOS-1.30-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20LE-blue)](https://www.lenovo.com/gb/en/laptops/thinkpad/thinkpad-x1/ThinkPad-X1-Yoga-3rd-Gen/p/22TP2TXX13Y)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.0-green)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-green)](https://github.com/acidanthera/OpenCorePkg)
 [![LICENSE](https://img.shields.io/badge/license-BSD-green)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![tests](https://img.shields.io/badge/tests-no-red)
 
-<img align="right" src="https://i.imgur.com/I3yUS4Q.png" alt="machine-logo" width="300">
+<img align="right" src="https://www.installhackintosh.com/images/Articles/Juny2022/Lenovo%20Thinkpad%20X1%20Yoga%201st%20Gen%20[SkyLake%20-%20Intel%20HD%20520%20+%20PS2]%20-%20OpenCore-1.png" alt="machine-logo" width="300">
 
 #### READ THE ENTIRE README.MD BEFORE YOU START.
-
+#### REMINDER: THIS IS AN EXPERIMENTAL CONFIGURATION. USE AT YOUR OWN RISK.
 #### I am not responsible for any damages you may cause.
 
 ### Should you find an error, or improve anything, be it in the config itself or in the my documentation, please consider opening an issue or a pull request to contribute.
@@ -188,7 +189,7 @@ My ThinkPad X1 Yoga 3rd Gen configurations:
 | Processor Number                                                                                                                   | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
 | [i7-8650U](https://ark.intel.com/content/www/us/en/ark/products/124968/intel-core-i7-8650u-processor-8m-cache-up-to-4-20-ghz.html) | 4          | 8            | 1.9 GHz        | 4.2 GHz             | 8 MB  | LPDDR3-2133  | Intel UHD 620 |
-
+| [i5-8250U](https://www.intel.com/content/www/us/en/products/sku/124967/intel-core-i58250u-processor-6m-cache-up-to-3-40-ghz/specifications.html) | 4          | 8           | 1.8 GHz        | 3.40 GHz             | 6 MB  | DDR4-2400,LPDDR3-2133  | Intel UHD 620 |
 **Peripherals:**
 
 ```
@@ -256,5 +257,6 @@ Luyi1720839132@Gmail.com
 - [@xzhih](https://github.com/xzhih) for one-key-hidpi. 
 paranoidbashthot and \x for the BIOS mod to unlocked Intel Advance Menu.
 - [@FlasHRender](https://github.com/FlasHRender) for CPU Friend Preference file from - [here](https://github.com/FlasHRender/Zenbook-S-UX391UA-hackintosh/tree/master/EFI/OC/Kexts/CPUFriendDataProvider.kext/Contents)
+- [@KirisameR](https://github.com/KirisameR/ThinkPad-X1-Yoga-3rd-Hackintosh) for base config and the great guide.
 
 The greatest thank you and appreciation to [@Acidanthera](https://github.com/acidanthera), without whom's work, none of this would be possible.

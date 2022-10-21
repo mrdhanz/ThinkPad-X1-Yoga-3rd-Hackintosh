@@ -180,6 +180,9 @@ Besides, I have already applied USB Mapping and using NVMeFix.kext to enable ASP
 
 5. Put `/EFI-Opencore/OC` to `"Your SSD's EFI Partition"/EFI`, done. 
 
+### OR YOU CAN FOLLOWING dortania's guide:
+https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html#making-the-installer-in-windows
+
 <br>
 
 > ## SPECIFICATIONS
